@@ -1,0 +1,154 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<title>销大师-客户端下载</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<link rel="stylesheet" href="offical/css/bootstrap.css">
+
+<link rel="stylesheet" href="offical/css/animate.css">
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+<link rel="stylesheet" href="offical/css/slick.css">
+<link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+<link rel="stylesheet" href="offical/css/freeze.css">
+<link rel="stylesheet" href="offical/css/public.css">
+<link rel="stylesheet" href="offical/css/download.css">
+
+<script type="text/javascript" src="offical/js/modernizr.custom.32033.js"></script>
+<script src="https://cdn.bootcss.com/axios/0.12.0/axios.min.js"></script>
+<script src="offical/js/cookies.js"></script>
+<script src="offical/js/aboutAjax.js"></script>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="pre-loader">
+	<div class="load-con">
+		<img src="offical/img/freeze/logo.png" class="animated fadeInDown" alt="">
+		<div class="spinner">
+		  <div class="bounce1"></div>
+		  <div class="bounce2"></div>
+		  <div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation"></nav>
+</header>
+<div class="wrapper" style="position: relative">
+	<!-- <section id="demo">
+		<div class="container">
+			<div class="section-heading scrollpoint sp-effect3">
+				<p style="font-size: 64px;color:#000;margin-bottom: 60px;">销大师客户端</p>
+				<a>立即下载</a>
+				<p style="color:#000;margin-top: 24px;">Windows版 | v1.0.0 | 2019.3.15</p>
+			</div>
+			<div class="row">
+				<div class="col-md-12 scrollpoint sp-effect2" style="position: relative;height:658px;">
+					<div class="img1"></div>
+					<div class="img2"></div>
+					<div class="img3"></div>
+					<div class="img4"></div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<section id="download" >
+		<div class="container">
+			<div class="section-heading scrollpoint sp-effect3">
+				<h2 style="font-size: 64px;color:#000;margin-bottom: 60px;">销大师客户端</h2>
+				<a id="downloadBtn">立即下载</a>
+        <h5 style="color:#000;margin-top: 24px;font-size:18px;">
+          Windows版<span style="margin-left: 5px;margin-right: 5px"> | </span>
+          <span id="version">v1.0.0 </span>
+          <span style="margin-left: 5px;margin-right: 5px">|</span>
+          <span id="time">2019.3.15</span>
+          </h5>
+			</div>
+
+			<div class="row " style="position: relative;" >
+				<div class="col-md-12  sp-effect2 active animated fadeInRight" style="position: relative;height:450px;">
+					<div class="leftimg">
+
+					</div>
+					<div class="rightimg">
+
+					</div>
+				</div>
+
+				<!-- <div class="col-md-3 col-sm-3 col-xs-6">
+					<div class="about-item scrollpoint sp-effect2">
+						<i class="fa fa-download fa-2x"></i>
+						<h3>Easy setup</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6" >
+					<div class="about-item scrollpoint sp-effect5">
+						<i class="fa fa-mobile fa-2x"></i>
+						<h3>On-the-go</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6" >
+					<div class="about-item scrollpoint sp-effect5">
+						<i class="fa fa-users fa-2x"></i>
+						<h3>Social connect</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6" >
+					<div class="about-item scrollpoint sp-effect1">
+						<i class="fa fa-sliders fa-2x"></i>
+						<h3>Dedicated support</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<footer></footer>
+	<div id="select" style="display:none;width: 100%;position:fixed;background: #fff;height: 120px;z-index: 999;top: 80px;border-bottom:1px solid #f3f4f6"></div>
+</div>
+<!-- <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
+<script src="offical/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="offical/js/head.js"></script>
+<script type="text/javascript" src="offical/js/footer.js"></script>
+<script type="text/javascript" src="offical/js/fixdsider.js"></script>
+<script src="offical/js/bootstrap.min.js"></script>
+<script src="offical/js/slick.min.js"></script>
+<script src="offical/js/placeholdem.min.js"></script>
+<script src="offical/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script src="offical/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="offical/js/waypoints.min.js"></script>
+<script src="offical/js/scripts.js"></script>
+
+
+<script>
+	$(document).ready(function() {
+		appMaster.preLoader();
+    $(".login-btn").addClass("btnbg").removeClass('login-btn');
+
+    API.download()
+	});
+</script>
+
+</body>
+</html>

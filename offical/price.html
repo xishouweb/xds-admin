@@ -1,0 +1,1088 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>销大师-产品套餐价格</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="offical/css/bootstrap.css">
+    <link rel="stylesheet" href="offical/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="offical/css/font-awesome.min.css">
+    <link rel="stylesheet" href="offical/css/slick.css">
+    <link rel="stylesheet" href="offical/js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="offical/css/freeze.css">
+    <link rel="stylesheet" href="offical/css/public.css">
+    <link rel="stylesheet" href="offical/css/price.css">
+
+    <script type="text/javascript" src="offical/js/modernizr.custom.32033.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.12.0/axios.min.js"></script>
+    <script src="offical/js/cookies.js"></script>
+    <script src="offical/js/aboutAjax.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="offical/img/freeze/logo.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"></nav>
+    </header>
+    <div class="wrapper" style="position: relative">
+        <section id="price" style="padding-bottom: 70px;">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3" style="margin-top: 80px;margin-bottom: 160px;">
+                    <h2 class="price-sub-tit">领取免费试用机会</h2>
+                    <img src="offical/img/price/111.png">
+                </div>
+
+                <div class="row " style="position: relative">
+                    <div style="position: absolute;right:245px;border: 1px solid #ccc;
+                      top: 115px;width: 245px; background-color: transparent;z-index: 1;
+                      box-shadow: 0px 3px 16px 0px rgba(31, 41, 51, 0.3);height: 1631px;
+                      pointer-events: none;"
+                    >
+                        <!-- <div style="position: absolute;bottom: -5px;left: 0px;width:243px;height: 24px;border-radius: 0px 0px 5px 5px;z-index: 99;background: #fff;"></div> -->
+                    </div>
+                    <div class="col-md-12  sp-effect2 active animated  top" style="padding:0">
+
+                        <div style="padding:0;width:300px;float:left">
+                            <img src="offical/img/price/img_1banben.png" />
+                        </div>
+                        <div style="padding:0;width:245px;float:left">
+                            <img src="offical/img/price/img_2shiying.png" />
+                        </div>
+                        <div style="padding:0;width:245px;float:left">
+                            <img src="offical/img/price/img_3rumen.png" />
+                        </div>
+                        <div style="padding:0;width:245px;float:left">
+                            <img src="offical/img/price/img_4zhuanye.png" style="margin-top: -28px" />
+                        </div>
+                        <div style="padding:0;width:245px;float:left">
+                            <img src="offical/img/price/img_5qijian.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-12  sp-effect2 active animated price_table" style="position: relative;padding:0;">
+                        <table border="0" width="100%" cellpadding="5" cellspacing="1" class="col-md-12 bgwrite" style="background:#f6f7f7;">
+                          <!-- 功能 -->
+                          <tr align="center" class="header-xx" height="150" class="top2 bgwrite" style="background: rgba(255,255,255,1);">
+                            <td class="md-4 table-tit">功能</td>
+                            <td class=" md-4">价格</td>
+                            <td class=" md-2 btn1" style="font-size:16px;">
+                              ￥<span style="font-size: 32px;color:#67cb33;margin: 0 5px;font-weight: 900;">0</span>/3天<br>
+                              ￥<span style="text-decoration:line-through;">600</span>/3天<br>
+                              <a href="/admin/register" class="bg1" style="margin-top:10px;">免费试用</a>
+                            </td>
+                            <td class="md-2 btn2" style="font-size:16px;">
+                              ￥<span style="font-size: 32px;color:#f5ac05;margin: 0 5px;font-weight: 900;">6800</span>/年<br>
+                              ￥<span style="text-decoration:line-through;">8800</span>/年<br>
+                              <a class="bg2" style="margin-top:10px;">就选这个</a>
+                            </td>
+                            <td class="border-shadow md-2 btn3" style="font-size:16px;">
+                              ￥<span style="font-size: 32px;color:#15a1f9;margin: 0 5px;font-weight: 900;">11800</span>/年<br>
+                              ￥<span style="text-decoration:line-through;">15800</span>/年<br>
+                              <a class="bg3" style="margin-top:10px;">就选这个</a>
+                            </td>
+                            <td class="md-2 btn4" style="font-size:16px;">
+                              ￥<span style="font-size: 32px;color:#e6352d;margin: 0 5px;font-weight: 900;">19800</span>/年<br>
+                              ￥<span style="text-decoration:line-through;">28800</span>/年<br>
+                              <a class="bg4" style="margin-top:10px;">就选这个</a>
+                            </td>
+                          </tr>
+                          <!-- 资源配置 -->
+                          <tr align="center" class="xx">
+                              <td rowspan="5" class="table-tit">资源配置</td>
+                              <td class="liang">客服席位数</td>
+                              <td class="liang">1个</td>
+                              <td class="liang">2个</td>
+                              <td class="liang">3个</td>
+                              <td class="liang">5个</td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">总工位数</td>
+                              <td class="liang">2个</td>
+                              <td class="liang">3个</td>
+                              <td class="liang">5个</td>
+                              <td class="liang">10个</td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">公众号</td>
+                              <td class="liang">1个</td>
+                              <td class="liang">1个</td>
+                              <td class="liang">2个</td>
+                              <td class="liang">5个</td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">聊天信息保存时间</td>
+                              <td class="liang">3日</td>
+                              <td class="liang">长期</td>
+                              <td class="liang">长期</td>
+                              <td class="liang">长期</td>
+                          </tr> -->
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">粉丝信息保存时间</td>
+                              <td class="liang">长期</td>
+                              <td class="liang">长期</td>
+                              <td class="liang">长期</td>
+                              <td class="liang">长期</td>
+                          </tr> -->
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">登录方式</td>
+                              <td class="liang">营销网页版<br>客服安装版</td>
+                              <td class="liang">营销网页版<br>客服安装版</td>
+                              <td class="liang">营销网页版<br>客服安装版</td>
+                              <td class="liang">营销网页版<br>客服安装版</td>
+                          </tr> -->
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">粉丝对话数</td>
+                              <td class="liang">10个/天</td>
+                              <td class="liang">100个/天</td>
+                              <td class="liang">300个/天</td>
+                              <td class="liang">1000个/天</td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">粉丝量限制</td>
+                              <td class="liang">/</td>
+                              <td class="liang">1万</td>
+                              <td class="liang">5万</td>
+                              <td class="liang">10万</td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">数据同步频率</td>
+                              <td class="liang">1次/天</td>
+                              <td class="liang">1次/天</td>
+                              <td class="liang">3次/天</td>
+                              <td class="liang">5次/天</td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">云空间</td>
+                              <td class="liang">100M</td>
+                              <td class="liang">500M</td>
+                              <td class="liang">2G</td>
+                              <td class="liang">10G</td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">使用期限</td>
+                              <td class="liang">3天</td>
+                              <td class="liang">1年</td>
+                              <td class="liang">1年</td>
+                              <td class="liang">1年</td>
+                          </tr> -->
+                          <!-- 智能营销 -->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td rowspan="8" class="table-tit">智能营销</td>
+                              <td class="liang">多维访客标签</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">精准营销群发</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang">5次/天</td>
+                              <td class="liang">10次/天</td>
+                              <td class="liang">100次/天</td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">客服群发</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">定位粉丝位置</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">自动打标签</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">渠道二维码</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">模板消息群发</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">粉丝裂变海报</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">智能接待</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- 智能客服 -->
+                          <tr align="center" class="xx">
+                              <td rowspan="9" class="table-tit">智能客服</td>
+                              <td class="liang">智能派单</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">消息提醒</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">知识库</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">来访接待</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">语音会话</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">发送文件</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">粉丝行为轨迹</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">客服操作记录</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">来访提醒弹框</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">会话设置</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">个性化坐席</td>
+                              <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">统筹接待组</td>
+                              <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">团队协作</td>
+                              <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx liang">
+                              <td class="liang">专属客服</td>
+                              <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">强制聊天</td>
+                              <td class="liang">5次/天</td>
+                              <td class="liang">20次/天</td>
+                              <td class="liang">50次/天</td>
+                              <td class="liang">100次/天</td>
+                          </tr>
+                          <!-- 微信 scrm-->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                            <td rowspan="3" class="table-tit">微信SCRM</td>
+                            <td class="liang">粉丝管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                            <td class="liang">粉丝分析</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                            <td class="liang">高级查询</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- 企业管理 scrm-->
+                          <tr align="center" class="xx">
+                            <td rowspan="2" class="table-tit">企业管理</td>
+                            <td class="liang">团队管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                            <td class="liang">坐席管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                            <td class="liang">权限管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- 公众号管理 scrm-->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td rowspan="4" class="table-tit">公众号管理</td>
+                              <td class="liang">多公众号管理</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">自定义菜单</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">自动回复</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">素材管理</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">图文消息群发</td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">个性化菜单</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- 统计分析 -->
+                          <!-- <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td>统计分析</td>
+                            <td class="liang">老板助理/高级统计</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <!-- 套餐升级-->
+                          <tr align="center" class="xx">
+                              <td rowspan="3" class="table-tit">套餐升级</td>
+                              <td class="liang">增加坐席</td>
+                              <td class="liang">/</td>
+                              <td class="liang">800元/年/坐席</td>
+                              <td class="liang">800元/年/坐席</td>
+                              <td class="liang">800元/年/坐席</td>
+                          </tr>
+                          <tr align="center" class="xx">
+                              <td class="liang">增加公众号</td>
+                              <td class="liang">/</td>
+                              <td class="liang">800元/年/个</td>
+                              <td class="liang">800元/年/个</td>
+                              <td class="liang">800元/年/个</td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">加购具体功能</td>
+                              <td colspan="4" class="liang">按需购买，以具体功能价格为准</td>
+                          </tr> -->
+                          <tr align="center" class="xx">
+                              <td class="liang">粉丝数量资源</td>
+                              <td class="liang">/</td>
+                              <td class="liang">2000元/5万粉丝</td>
+                              <td class="liang">3000元/5万粉丝</td>
+                              <td class="liang">4000元/5万粉丝</td>
+                          </tr>
+                          <!-- 增值服务-->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td rowspan="3" class="table-tit">增值服务</td>
+                              <td class="liang">营销策划</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                              <td class="liang">1次</td>
+                              <td class="liang">3次</td>
+                              <td class="liang">5次</td>
+                          </tr>
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">运营培训</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /> </td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                          <!-- <tr align="center" class="xx">
+                              <td class="liang">公众号代申请搭建</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /> </td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr> -->
+                          <tr align="center" class="xx" style="background: rgba(255,255,255,1);">
+                              <td class="liang">服务方式</td>
+                              <td class="liang">公众号在线/微信客服</td>
+                              <td class="liang">专属顾问</td>
+                              <td class="liang">专属顾问</td>
+                              <td class="liang">专属顾问</td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+                <p onclick="openpop()" style="text-align: center;padding-top:80px;cursor: pointer;color:#409fff">查看不同套餐详细内容对比</p>
+            </div>
+        </section>
+        <section id="pricepart5">
+            <div class="container">
+                <!-- <div class="section-heading inverse scrollpoint sp-effect3">
+						<h1>Get App</h1>
+						<div class="divider"></div>
+						<p>Choose your native platform and get started!</p>
+					</div> -->
+
+                <div class="row">
+                    <div class="col-md-12 scrollpoint sp-effect2" style="margin-top:90px;text-align: center;">
+                        <p style="font-size: 36px; color: #000;text-align: center;padding: 0;margin: 0;display:inline-block">
+                            <span style="float: left;margin-right: 30px;">立即领取免费试用机会</span>
+                            <a href="/admin/register" class="sy-btn">
+                                免费试用
+                            </a>
+                        </p>
+                        <p style="margin-right: 84px;font-size: 18px;margin-top: 20px;font-weight: 100;color:#6f7072">购买咨询电话：400-1622-800</p>
+                        <ul>
+                            <li><a>购买咨询</a></li>
+                            <li><a>优惠促销</a></li>
+                            <li><a>产品咨询</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+        <div id="select" style="display:none;width: 100%;position:fixed;background: #fff;height: 120px;z-index: 999;top: 80px;border-bottom:1px solid #f3f4f6"></div>
+        <div class="Schedule-mask"></div>
+        <div class="Schedule" id="Schedule">
+            <div style="width: 1300px;left: 50%;height: 100px;z-index: 9999;top: 50px;position: fixed;background-color: #fff;margin-left: -640px;">
+                <img onclick="closepop()" style="width: auto;margin: 10px 20px 0 0;float: right;cursor: pointer;" src="offical/img/price/icon_guanbi.png" />
+
+            </div>
+            <div class="Schedule-fix-top">
+
+                <div class=" topbg13 bgg16666" style="padding:0;width:300px;float:left">
+                    <img src="offical/img/price/img_1banben.png" />
+                </div>
+                <div class="col-md-2 topbg222" style="padding:0;width:245px;float:left">
+                    <img src="offical/img/price/img_2shiying.png" />
+                </div>
+                <div class="col-md-2 topbg322" style="padding:0;width:245px;float:left">
+                    <img src="offical/img/price/img_3rumen.png" />
+                </div>
+                <div class="col-md-2 " style="padding:0;width:245px;float:left">
+                    <img src="offical/img/price/img_4zhuanye.png" style="margin-top: -28px" />
+                </div>
+                <div class="col-md-2 topbg52" style="padding:0;width:245px;float:left">
+                    <img src="offical/img/price/img_5qijian.png" />
+                </div>
+
+            </div>
+            <!-- 弹出框 -->
+            <div class="Schedule-fix-table">
+                <div class="Schedulediv" style="height:660px;box-shadow: 0px 2px 33px 0px #dad7d7;">
+                    <table border="0" width="100%" bgcolor="#fff" cellpadding="5" cellspacing="1" class="Schedule_table col-md-12">
+                        <tr align="center" height="150" class="top2">
+                            <td class="md-4 table-tit">功能</td>
+                            <td class=" md-4">价格</td>
+                            <td class=" md-2" style="font-size:16px;">￥<span style="font-size: 32px;color:#67cb33;margin: 0 5px;font-weight: 900;">0</span>/天<br><a href="/admin/register" class="bg1" style="margin-top:30px;">免费试用</a></td>
+                            <td class="md-2" style="font-size:16px;">￥<span style="font-size: 32px;color:#f5ac05;margin: 0 5px;font-weight: 900;">6800</span>/年<br>￥<span style="text-decoration:line-through;">8800</span>/年<br><a class="bg2" style="margin-top:10px;">就选这个</a></td>
+                            <td class="border-shadow md-2" style="font-size:16px;">￥<span style="font-size: 32px;color:#15a1f9;margin: 0 5px;font-weight: 900;">11800</span>/年<br>￥<span style="text-decoration:line-through;">15800</span>/年<br><a class="bg3" style="margin-top:10px;">就选这个</a></td>
+                            <td class="md-2" style="font-size:16px;">￥<span style="font-size: 32px;color:#e6352d;margin: 0 5px;font-weight: 900;">19800</span>/年<br>￥<span style="text-decoration:line-through;">28800</span>/年<br><a class="bg4" style="margin-top:10px;">就选这个</a></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td rowspan="11" class="table-tit">资源配置</td>
+                            <td class="liang">客服席位数</td>
+                            <td class="liang">1个</td>
+                            <td class="liang">2个</td>
+                            <td class="liang">3个</td>
+                            <td class="liang">5个</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">总工位数</td>
+                            <td class="liang">2个</td>
+                            <td class="liang">3个</td>
+                            <td class="liang">5个</td>
+                            <td class="liang">10个</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">公众号</td>
+                            <td class="liang">1个</td>
+                            <td class="liang">1个</td>
+                            <td class="liang">2个</td>
+                            <td class="liang">5个</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">聊天信息保存时间</td>
+                            <td class="liang">3天</td>
+                            <td class="liang">长期</td>
+                            <td class="liang">长期</td>
+                            <td class="liang">长期</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">粉丝信息保存时间</td>
+                            <td class="liang">长期</td>
+                            <td class="liang">长期</td>
+                            <td class="liang">长期</td>
+                            <td class="liang">长期</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">登录方式</td>
+                            <td class="liang">营销网页版<br>客服安装版</td>
+                            <td class="liang">营销网页版<br>客服安装版</td>
+                            <td class="liang">营销网页版<br>客服安装版</td>
+                            <td class="liang">营销网页版<br>客服安装版</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">粉丝对话数</td>
+                            <td class="liang">10个/天</td>
+                            <td class="liang">100个/天</td>
+                            <td class="liang">300个/天</td>
+                            <td class="liang">1000个/天</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">粉丝量限制</td>
+                            <td class="liang">/</td>
+                            <td class="liang">1万</td>
+                            <td class="liang">5万</td>
+                            <td class="liang">10万</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">数据同步频率</td>
+                            <td class="liang">1次/天</td>
+                            <td class="liang">1次/天</td>
+                            <td class="liang">3次/天</td>
+                            <td class="liang">5次/天</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">云空间</td>
+                            <td class="liang">100M</td>
+                            <td class="liang">500M</td>
+                            <td class="liang">2G</td>
+                            <td class="liang">10G</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">使用期限</td>
+                            <td class="liang">3天</td>
+                            <td class="liang">1年</td>
+                            <td class="liang">1年</td>
+                            <td class="liang">1年</td>
+                        </tr>
+                        <!-- 智能营销 -->
+                        <tr align="center" class="xx">
+                            <td rowspan="10" class="table-tit">智能营销</td>
+                            <td class="liang">多维访客标签</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">精准营销群发</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang">5次/天</td>
+                            <td class="liang">10次/天</td>
+                            <td class="liang">100次/天</td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">定位粉丝位置</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">二维码美化</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">自动打标签</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">渠道二维码</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">客服群发</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">模板消息群发</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">粉丝裂变海报</td>
+                            <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">智能接待</td>
+                            <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <!-- 智能客服 -->
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td rowspan="15" class="table-tit">智能客服</td>
+                            <td class="liang">智能派单</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">消息提醒</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">知识库</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">来访接待</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">语音会话</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">发送文件</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">粉丝行为轨迹</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">客服操作记录</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">来访提醒弹窗</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">会话设置</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">个性化坐席</td>
+                            <td class="liang "><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">统筹接待组</td>
+                            <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">团队协作</td>
+                            <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">专属客服</td>
+                            <td class="liang "><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">强制聊天</td>
+                            <td class="liang">5次/天</td>
+                            <td class="liang">20次/天</td>
+                            <td class="liang">50次/天</td>
+                            <td class="liang">100次/天</td>
+                        </tr>
+                        <!-- 微信 scrm-->
+                        <tr align="center" class="xx">
+                            <td rowspan="3" class="table-tit">微信SCRM</td>
+                            <td class="liang">粉丝管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">粉丝分析</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">高级查询</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <!-- 企业管理 scrm-->
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td rowspan="3" class="table-tit">企业管理</td>
+                            <td class="liang">团队管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">坐席管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">权限管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <!-- 公众号管理 scrm-->
+                        <tr align="center" class="xx">
+                            <td rowspan="6" class="table-tit">公众号管理</td>
+                            <td class="liang">多公众号管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">自定义菜单</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">自动回复</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">素材管理</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">图文消息群发</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">个性化菜单</td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <!-- 统计分析 -->
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="table-tit">统计分析</td>
+                            <td class="liang">老板助理/高级统计</td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <!-- 套餐升级-->
+                        <tr align="center" class="xx">
+                            <td rowspan="3" class="table-tit">套餐升级</td>
+                            <td class="liang">增加坐席</td>
+                            <td class="liang">/</td>
+                            <td class="liang">800元/年/坐席</td>
+                            <td class="liang">800元/年/坐席</td>
+                            <td class="liang">800元/年/坐席</td>
+                        </tr>
+                        <tr align="center" class="xx">
+                            <td class="liang">增加公众号</td>
+                            <td class="liang">/</td>
+                            <td class="liang">800元/年/个</td>
+                            <td class="liang">800元/年/个</td>
+                            <td class="liang">800元/年/个</td>
+                        </tr>
+                        <!-- <tr align="center" class="xx">
+                            <td class="liang">加购具体功能</td>
+                            <td colspan="4" class="liang">按需购买，以具体功能价格为准</td>
+                        </tr> -->
+                        <tr align="center" class="xx">
+                            <td class="liang">粉丝数量资源</td>
+                            <td class="liang">/</td>
+                            <td class="liang">2000元/5万粉丝</td>
+                            <td class="liang">3000元/5万粉丝</td>
+                            <td class="liang">4000元/5万粉丝</td>
+                        </tr>
+                        <!-- 增值服务-->
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td rowspan="4" class="table-tit">增值服务</td>
+                            <td class="liang">营销策划</td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang">1次</td>
+                            <td class="liang">3次</td>
+                            <td class="liang">5次</td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">运营培训</td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /> </td>
+                            <td class="liang"><img src="offical/img/price/cuo.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                            <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                        </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                              <td class="liang">公众号代申请搭建</td>
+                              <td class="liang"><img src="offical/img/price/cuo.png" /> </td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                              <td class="liang"><img src="offical/img/price/dui.png" /></td>
+                          </tr>
+                        <tr align="center" class="xx" bgcolor="#f7f7f7">
+                            <td class="liang">服务方式</td>
+                            <td class="liang">公众号在线/微信客服</td>
+                            <td class="liang">专属顾问</td>
+                            <td class="liang">专属顾问</td>
+                            <td class="liang">专属顾问</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="Schedule-fix-footer">
+                <ul>
+                    <li class="fl"><a href="/admin/register"> 免费试用</a></li>
+                    <li class="fl"><a href="#">咨询购买</a></li>
+                    <li class="fl close" onclick="closepop()">关闭</li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <script src="offical/js/jquery-1.11.1.min.js"></script>
+    <script src="offical/js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="offical/js/head.js"></script>
+    <script type="text/javascript" src="offical/js/footer.js"></script>
+    <script type="text/javascript" src="offical/js/fixdsider.js"></script>
+    <script src="offical/js/bootstrap.min.js"></script>
+    <script src="offical/js/slick.min.js"></script>
+    <script src="offical/js/placeholdem.min.js"></script>
+    <script src="offical/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="offical/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="offical/js/waypoints.min.js"></script>
+    <script src="offical/js/scripts.js"></script>
+
+
+    <script>
+        function closepop() {
+            $('body').css({
+                "overflow-x": "auto",
+                "overflow-y": "auto"
+            });
+            $(".Schedule-mask").hide();
+            $(".Schedule").hide();
+        };
+
+        function openpop() {
+            $('body').css({
+                "overflow-x": "hidden",
+                "overflow-y": "hidden"
+            });
+            $(".Schedule-mask").show();
+            $(".Schedule").show();
+
+        }
+        $(document).ready(function() {
+
+            appMaster.preLoader();
+            closepop();
+            //$("").niceScroll({boxzoom:true});
+            // 	$(' #Schedule_table').niceScroll({
+            //     cursorcolor: "green",
+            //     cursoropacitymin: 0,
+            //     cursoropacitymax: 1,
+            //     cursorwidth: 6,
+            //     cursorborderradius: "5px",
+            //     autohidemode: 'leave', // 隐藏滚动条的方式,仅在指针离开内容时隐藏
+            //     boxzoom:true
+            // });
+            $(".Schedulediv").niceScroll({
+                cursorcolor: "#cccccc"
+            });
+            $(".login-btn").addClass("btnbg").removeClass('login-btn');
+        });
+
+        $(".price_table .xx").hover(function() {
+            // alert("sdfsd");
+            $(this).find('.liang').addClass('liangcss');
+
+        }, function() {
+            $(this).find('.liang').removeClass('liangcss');
+        });
+        $(".Schedulediv .xx").hover(function() {
+            // alert("sdfsd");
+            $(this).find('.liang').addClass('liangcss');
+
+        }, function() {
+            $(this).find('.liang').removeClass('liangcss');
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+.market ul {
+    width:100%;
+}
+ .market .nav-content li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.active .nav1-icon h3{
+    color: #409fff;
+}
+.nav1-icon{
+ padding:40px 140px;
+ text-align: center;
+}
+#maketpart1 img{
+   width:auto;
+}
+#maketpart4 img{
+ width:auto
+}
+ .nav1:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 240px;
+    background-image: url(../img/Socialmarketing/icon_1shejiao_1.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 48px;
+    z-index: 1;
+}
+.nav2:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 240px;
+    background-image: url(../img/Socialmarketing/icon_1zhineng_1.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 48px;
+    z-index: 1;
+}
+.active .nav1-icon::after {
+    position: absolute;
+    top: 104px;
+    right: 171px;
+    width: 240px;
+    height: 4px;
+    content: "";
+    background: #409fff;
+}
+.nav1::after {
+    position: absolute;
+    top: 104px;
+    right: 171px;
+    width: 188px;
+    height: 4px;
+    content: "";
+    background: #fff;
+}
+.active .nav2:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 240px;
+    background-image: url(../img/Socialmarketing/icon_1zhineng.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 48px;
+    z-index: 1;
+}
+.active .nav1:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 240px;
+    background-image: url(../img/Socialmarketing/icon_1shejiao.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 48px;
+    z-index: 1;
+}
+section#maketpart1{
+  background: #f3f4f6;
+  padding-top: 100px;
+}
+section#maketpart3 {
+    background: #f3f4f6;
+
+  }
+.sy-btn {
+    background: #ffffff;
+    background: -moz-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #3eb9ff), color-stop(100%, #2772ff));
+    background: -webkit-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -o-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -ms-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3eb9ff, endColorstr=#2772ff, GradientType=1);
+}
+.btns {
+
+    color: #fff;
+    border: none;
+    width: 88px;
+    height: 34px;
+    border-radius: 3px;
+}
+.btns a{
+
+    color: #fff;
+    border: none;
+
+}
+section#maketpart2 {
+    width:100%;
+    height:730px;
+    background:url(../img/Socialmarketing/beijing_1.png);
+
+  }
+  #maketpart2 ul li,#maketpart3 ul li{
+      float:left;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+
+  #maketpart3 ul li{
+    width: 200px;
+    position: relative;
+    background-color: #fff;
+    padding: 40px 0px 63px 20px;
+    height: 239px;
+    border-radius: 4px;
+}
+.now {
+    background: #ffffff;
+    background: -moz-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #3eb9ff), color-stop(100%, #2772ff));
+    background: -webkit-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -o-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -ms-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3eb9ff, endColorstr=#2772ff, GradientType=1);
+}
+#maketpart3 .now h4,#maketpart3 .now  p{
+    color: #fff;
+
+}
+
+#maketpart3 ul li p{
+    margin-top: 49px;
+    color:#606366;
+
+}
+#maketpart3 h4{
+  color:#303133;
+  font-weight: 600;
+}
+#maketpart3 ul li p{
+    padding-right: 20px;
+}
+
+.now h4:after{
+    position: absolute;
+    top: 94px;
+    left: 20px;
+    width: 30px;
+    height:3px;
+    content: "";
+    background: #fff;
+}
+h4:after{
+    position: absolute;
+    top: 94px;
+    left: 20px;
+    width: 30px;
+    height: 3px;
+    content: "";
+    background: #409fff;
+}
+.now .bgicon1{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/1.png)
+}
+.bgicon1{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/1_0.png)
+}
+.now .bgicon2{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/2.png)
+}
+.bgicon2{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/2_0.png)
+}
+.now .bgicon3{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/3.png)
+}
+.bgicon3{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/3_0.png)
+}
+.now .bgicon4{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/4.png)
+}
+.bgicon4{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/4_0.png)
+}
+.now .bgicon5{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/5.png)
+}
+.bgicon5{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/5_0.png)
+}
+.now .bgicon6{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/6.png)
+}
+.bgicon6{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/6_0.png)
+}
+.now .bgicon7{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/7.png)
+}
+.bgicon7{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/7_0.png)
+}
+.bgicon8{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/8_0.png)
+}
+.now .bgicon8{
+    position: absolute;
+    bottom: 0;
+    width: 110px;
+    right: 0;
+    height: 110px;
+    background: url(../img/Socialmarketing/8.png)
+}
+

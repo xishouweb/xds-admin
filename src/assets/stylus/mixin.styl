@@ -1,0 +1,45 @@
+// 背景图片
+bg-image($url)
+  background-image: url($url + "@2x.png")
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background-image: url($url + "@3x.png")
+
+// 不换行
+no-wrap()
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+
+// 扩展点击区域
+extend-click()
+  position: relative
+  &:before
+    content: ''
+    width: 100%
+    position: absolute
+    left 0
+    top: -10px
+    bottom: -10px
+clear()
+  &:after
+    content: ''
+    clear: both
+    display: block
+// 上边框隐藏shadow
+hide-boxShadow()
+  position relative
+  border-bottom-left-radius 5px
+  border-bottom-right-radius 5px
+  &:after
+    content ''
+    position absolute
+    left 0
+    top -5px
+    width 100%
+    height 5px
+    background-color #fff
+    border-top-left-radius 5px
+    border-top-right-radius 5px
+line-border()
+  border-bottom solid 1px #e3e5e6   
+

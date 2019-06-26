@@ -1,0 +1,133 @@
+@import '~@/assets/stylus/mixin'
+#seats
+  position relative
+  height 100%
+  background-color: #fff
+  border-radius: 3px
+  .scroll-common-content
+    min-height: 800px
+    height 100%
+    .seats-main
+      padding:32px 20px 20px
+      .common-title
+        font-size: 18px
+        color: #0c0c0d
+        border-bottom solid 1px #edeff0
+        padding-bottom: 20px
+        .common-tips
+          color #909499
+      .operation
+        padding-top: 30px
+        clear()
+        .add-staff
+          float left
+        .basic-operation
+          float: right
+          .operation-item
+            float left
+            margin-left: 20px
+            .operation-icon
+              margin-top: 10px
+              cursor pointer
+              font-size: 18px
+              &:hover
+                color: #409eff
+            .size-same
+              font-size: 20px
+      .table-list
+        margin-top: 15px
+        .ivu-icon-more:hover
+          color #409eff
+
+      .page-batch
+        padding-top: 20px
+        clear()
+        .batch
+          float left
+          .batch-item
+            float left
+            margin-right: 10px
+            &:nth-of-type(1)
+              margin-right: 30px
+              margin-left: 19px
+              margin-top: 7px
+              .text
+                display: inline-block
+                margin-left: 13px
+  .content-wrapper
+    padding-top: 30px
+    .content-item
+      margin-bottom: 30px
+      clear()
+      .content-left
+        float left
+        height 30px
+        line-height: 30px
+        margin-right: 75px
+      .content-right
+        padding-right: 114px
+        float left
+        .btn-item
+          margin-right: 15px
+          &.active
+            color: #66b1ff;
+            background-color: transparent;
+            border-color: #66b1ff;
+  .footer-wrapper
+    display: inline-block
+    .footer-btn
+      width 120px
+      margin-right: 20px
+    .footer-btn:nth-last-of-type(1)
+      margin-right: 0
+  .batch-limit-wrapper
+    padding-top: 20px
+.api
+  margin: 8px 6px
+  .title
+    font-size: 13px
+  .content
+    .ivu-checkbox-group-item
+      display block
+      margin-top: 10px
+      font-size: 13px
+.seat.ivu-poptip-popper
+  min-width auto
+  .ivu-poptip-body
+    padding-left: 0px
+    padding-right: 0px
+    .ul-list
+      .li-item
+        height 30px
+        line-height: 30px
+        cursor pointer
+        padding-left: 30px
+        padding-right: 30px
+        &:hover
+          background-color: #409eff
+          color: #fff
+.noseatDate
+  z-index 10
+  position: absolute
+  left 0
+  top 0
+  bottom: 0
+  right 0
+  margin: auto
+  text-align: center
+  display inline-block
+  width: 212px
+  height 250px
+  .item
+    margin-bottom: 15px
+  .tip
+    font-size: 16px
+  .small-tip
+    color #606366
+  .btn
+    width: 200px
+    .ivu-btn
+      width: 100%
+.default-seat-img
+  background-size cover
+  background-image url('../../../assets/images/avatar.png')

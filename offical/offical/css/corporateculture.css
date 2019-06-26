@@ -1,0 +1,298 @@
+.aboutus ul {
+    width:100%;
+}
+ .aboutus .nav-content li {
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+}
+.active .nav1-icon h3{
+    color: #409fff;
+}
+.nav1-icon{
+    padding: 40px 10px;
+ text-align: center;
+}
+ .nav1:before {
+    position: absolute;
+    content: '';
+
+    background-image: url(../img/aboutus/icon_guanyvtuandui_1.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 35px;
+    top: 40px;
+    left:156px;
+    z-index: 1;
+}
+.nav2:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_1qiyewenhua.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.nav3:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_1jiaruwomen.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav1-icon::after {
+    position: absolute;
+    top: 104px;
+    left: 150px;
+    width: 200px;
+    height: 4px;
+    content: "";
+    background: #409fff
+}
+.nav1::after {
+    position: absolute;
+       top: 40px;
+    left: 138px;
+    width: 0px;
+    height: 4px;
+    content: "";
+    background: #fff;
+}
+.nav2::after{
+    position: absolute;
+       top: 40px;
+    left: 138px;
+    width: 0px;
+    height: 4px;
+    content: "";
+    background: #fff;
+}
+.active .nav3:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_jiaruwomen_1.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav2:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+    top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_qiyewenhua_1.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav1:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 156px;
+    background-image: url(../img/aboutus/icon_1tuandui.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 35px;
+    z-index: 1;
+}
+section#culturepart1{
+  background: #f3f4f6;
+  padding-top: 80px;
+}
+#culturepart1 .img-container{
+    /*将图片容器设置为相对定位，作为图片定位的参照*/
+    position: relative;
+    /*设置块相对于其父级元素的宽度*/
+    width:100%;
+    /*图片容器只设置宽度属性，利用padding-top/padding-bottom将块撑开，设置相对于父级元素宽度的百分数*/
+
+    /*初始化图片容器高度为零*/
+    height:382px;
+    /*超出图片容器部分隐藏*/
+    overflow: hidden;
+    /*显示图片容器边框*/
+
+}
+#culturepart1 .img-container img{
+    /*设置图片为绝对定位，相对于图片容器定位*/
+    position: absolute;
+    /*距离图片容器顶部和左边位置为0*/
+    top:8px;
+    left: 0;
+    /*相对于图片容器大小比例，此处为全覆盖图片容器*/
+    width: 100%;
+    height:100%;
+}
+#culturepart2 .img-container{
+    /*将图片容器设置为相对定位，作为图片定位的参照*/
+    position: relative;
+    /*设置块相对于其父级元素的宽度*/
+    width:100%;
+    /*图片容器只设置宽度属性，利用padding-top/padding-bottom将块撑开，设置相对于父级元素宽度的百分数*/
+
+    /*初始化图片容器高度为零*/
+    height:480px;
+    /*超出图片容器部分隐藏*/
+    overflow: hidden;
+    /*显示图片容器边框*/
+
+}
+#culturepart2 .img-container img{
+    /*设置图片为绝对定位，相对于图片容器定位*/
+    position: absolute;
+    /*距离图片容器顶部和左边位置为0*/
+    top:0px;
+    left: 0;
+    /*相对于图片容器大小比例，此处为全覆盖图片容器*/
+    width: 100%;
+    height:100%;
+}
+
+
+#aboutuspart1 .contact{
+   padding: 50px 0;
+   background: #fff;
+}
+section#culturepart3 {
+    width:100%;
+    height:621px;
+    background:url(../img/culture/img_beijing_1.png) center;
+
+  }
+
+#culturepart5 {
+  width:100%;
+  height:796px;
+  background:url(../img/culture/img_beijing_2.png) center;
+}
+section#aboutuspart2 {
+
+    background:#f3f4f6;
+
+  }
+  /* #maketpart2 ul li,#maketpart3 ul li{
+      float:left;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  */
+  #aboutuspart3{
+    background: #f3f4f6;
+  }
+.title:after{
+    position: absolute;
+    top: 79px;
+    left: 0;
+    width: 30px;
+    height:3px;
+    content: "";
+    background: #409fff;
+}
+.swiper-container{
+    padding: 155px 0;
+    background-color: #000;
+}
+/* .aboutuspart3right{
+    background: #091c3d;
+    width:100%;
+    padding-top: 100px;
+    height:300px;
+}
+.aboutuspart3right li{
+    float: left;
+width: 33.3%;
+text-align: center
+} */
+/* #culturepart4 */
+
+.worth {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+.worth>li {
+  width: 251px;
+  height: 340px;
+  color: #fff;
+  padding: 60px 28px 30px 30px;
+}
+.worth>li>h3{
+    color: #fff;
+    line-height: 1;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 40px;
+    margin: 0 0 42px;
+}
+.worth>li>h3:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 30px;
+  height: 2px;
+  background: #409fff;
+}
+.worth>li p {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.list1{
+    background: url(../img/culture/img_tuandui.png) center no-repeat
+}
+.list2{
+    background: url(../img/culture/img_chuangxin.png) center no-repeat
+}
+.list3{
+    background: url(../img/culture/img_pinbo.png) center no-repeat
+}
+.list4{
+    background: url(../img/culture/img_zhuoyue.png) center no-repeat
+}
+
+/* 人才模块 */
+.talents{
+  height: 796px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/culture/img_rencai.png) no-repeat center;
+}
+.talents .modal-title {
+  margin-top: 110px;
+}
+.modal-title {
+  color: #091C40;
+  display: flex;
+  align-items: center;
+}
+.modal-title>p {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+}
+.modal-title>h1 {
+  color: #091C40;
+  font-size: 54px;
+  line-height: 56px;
+  font-weight: 900;
+  margin: 0 10px 0 0;
+}
+

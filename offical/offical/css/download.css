@@ -1,0 +1,149 @@
+header .navbar-default .navbar-brand {
+  width: 210px;
+  height: 45px;
+  background: url(../img/freeze/top_logo1.png);
+}
+
+header .navbar-default ul.navbar-nav li a {
+  color: #000
+}
+
+header .navbar-default ul.navbar-nav li a:hover {
+  color: #409fff
+}
+
+header .navbar-default ul.navbar-nav li a:hover:after {
+  color: #409fff;
+  background: #409fff;
+}
+
+header .navbar-default ul.navbar-nav li .select {
+  background-image: url(../img/freeze/icon-xila.png);
+}
+
+.navbar-nav .account .user .user-name {
+  float: left;
+  padding: 0 10px;
+  max-width: 90px;
+  white-space: nowrap;
+  color: #000;
+}
+
+header .login-btn {
+  padding: 8px 30px 8px 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(to right, #40bfff 0%, #266eff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  /* padding: 5px 15px;*/
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #40bfff, #266eff);
+  border-image-slice: 10;
+}
+
+header .login-btn:hover {
+  padding: 8px 30px 8px 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(to right, #40bfff 0%, #266eff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  /* padding: 5px 15px;*/
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #40bfff, #266eff);
+  border-image-slice: 10;
+}
+
+.telphone h5 {
+  color: #000
+}
+
+.telphone:before {
+  background-image: url(../img/icon-tel.png);
+}
+
+section#download {
+  width: 100%;
+  height: 920px;
+  background-position: center;
+  background-image: url(../img/download/bg_beijing.png);
+}
+
+section#download {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+#download>div {
+  height: 100%;
+}
+
+#download a:hover {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(90deg, #7fd4ff 0%, #6699ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #7fd4ff), color-stop(100%, #6699ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(90deg, #7fd4ff 0%, #6699ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(90deg, #7fd4ff 0%, #6699ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #7fd4ff 0%, #6699ff 100%);
+  /* IE10+ */
+  background: linear-gradient(90deg, #7fd4ff 0%, #6699ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fd4ff, endColorstr=#6699ff, GradientType=1);
+}
+
+#download a {
+  padding: 10px 80px;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 2px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #3eb9ff), color-stop(100%, #2772ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+  /* IE10+ */
+  background: linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3eb9ff, endColorstr=#2772ff, GradientType=1);
+}
+
+#download .leftimg {
+  position: absolute;
+  z-index: 1;
+  width: 237px;
+  height: 352px;
+  bottom: -37px;
+  background: url(../img/download/img_download.png) no-repeat bottom;
+  left: 29px;
+  background-repeat: no-repeat;
+}
+
+#download .rightimg {
+  position: absolute;
+  width: 842px;
+  bottom: -37px;
+  height: 430px;
+  background-repeat: no-repeat;
+  background: url(../img/download/img_huihua.png) no-repeat bottom;
+  left: 208px;
+}

@@ -1,0 +1,132 @@
+@import '~@/assets/stylus/mixin'
+#authorization
+  .auth-header
+    height 80px
+    background-color: #fff
+    div
+      float left
+      &:nth-of-type(1)
+        height 100%
+        img
+          display: inline-block
+          vertical-align: middle
+          margin-top: 23px
+          margin-left: 50px
+      &:nth-of-type(2)
+        position relative
+        font-size: 32px
+        padding-right: 20px
+        line-height: 80px
+        color: #333
+        margin-left: 10px
+        &:after
+          position: absolute
+          height: 32px
+          width: 1px
+          content: ''
+          background-color: #333333
+          right 0
+          top: 24px
+      &:nth-of-type(3)
+        font-size: 32px
+        padding-left: 20px
+        line-height: 80px
+        color: #333
+  .auth-main
+    padding-top: 50px
+    text-align: center
+    .auth-title
+      font-size: 22px
+    .auth-wrapper
+      width: 350px
+      margin: 0 auto
+      box-shadow 0px 1px 18px 0px #e5e5e5
+      border-radius: 3px
+      &.setWidth
+        width: 581px
+      .auth-item
+        background-color: #fff
+        margin-top: 50px
+        padding: 30px
+        color: #333
+        &.no-funcInfo
+          padding-top: 7px
+        &.no-permission
+          .tips
+            text-align: left
+            margin-bottom: 5px
+          .tips-bottom
+            margin-top: 15px
+            text-align: left
+          .list-wrapper
+            text-align: left
+            .list-item
+              line-height: 28px
+              position: relative
+              padding-left: 16px
+              color: #979899
+              &:after
+                position: absolute
+                left: 0
+                top: 10px
+                content: ''
+                width: 8px
+                height: 8px
+                background-color: #979899
+                border-radius: 50%
+        .auth-img
+          margin-top: 30px
+        .auth-loading
+          position: relative
+          width: 46px
+          height: 46px
+          margin: auto
+        .result
+          margin-top: 24px
+          font-size: 16px
+        .tips
+          margin-top: 8px
+          line-height: 20px
+          .corp-color
+            color: #409eff
+        .float-btn
+          margin-top: 30px
+          margin-bottom: 10px
+          text-align: center
+          .left
+            width: 120px
+            margin-right: 20px
+          .right
+            width: 120px
+        .single-btn
+          margin-top: 30px
+          margin-bottom: 10px
+          button
+            width: 120px
+      .end-end
+        padding 35px 20px 60px
+        text-align: left
+        display: flex
+        .left
+          border-radius: 50%
+          width 40px
+          height 40px
+          padding-top: 7px
+          text-align: center
+          img
+            display: inline-block
+            width: 33px
+            height 32px
+        .right
+          line-height: 20px
+          flex: 1
+          padding-left: 10px
+          width: 260px
+          .des
+            line-height: 28px
+            display: flex
+            .mark
+              color #606366
+              width 40px
+            .detail
+              flex: 1

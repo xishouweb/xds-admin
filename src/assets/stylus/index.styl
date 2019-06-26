@@ -1,0 +1,17 @@
+@import "./reset.styl"
+@import "./base.styl"
+@import './class.styl'
+@import './fun.styl'
+@import './iconfont'
+
+// 全局覆盖时间选择器的样式
+.ivu-date-picker-cells-cell-range:before
+  background: #409eff !important
+span.ivu-date-picker-cells-cell-disabled, span.ivu-date-picker-cells-cell-disabled:hover
+  background:#ffffff !important
+.ivu-btn-primary[disabled]
+  color #fff !important
+  background-color #409eff !important
+
+.img-background
+  background url('~@S/images/material/bg-img.jpg') no-repeat center

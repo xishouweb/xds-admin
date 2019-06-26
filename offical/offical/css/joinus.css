@@ -1,0 +1,202 @@
+.aboutus ul {
+    width:100%;
+}
+ .aboutus .nav-content li {
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+}
+.active .nav1-icon h3{
+    color: #409fff;
+}
+.nav1-icon{
+    padding: 40px 10px;
+ text-align: center;
+}
+ .nav1:before {
+    position: absolute;
+    content: '';
+
+    background-image: url(../img/aboutus/icon_guanyvtuandui_1.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 35px;
+    top: 40px;
+    left:156px;
+    z-index: 1;
+}
+.nav2:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_1qiyewenhua.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.nav3:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_1jiaruwomen.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav1-icon::after {
+    position: absolute;
+    top: 104px;
+    left: 150px;
+    width: 200px;
+    height: 4px;
+    content: "";
+    background: #409fff
+}
+.nav1::after {
+    position: absolute;
+       top: 40px;
+    left: 138px;
+    width: 0px;
+    height: 4px;
+    content: "";
+    background: #fff;
+}
+.nav2::after{
+    position: absolute;
+       top: 40px;
+    left: 138px;
+    width: 0px;
+    height: 4px;
+    content: "";
+    background: #fff;
+}
+.active .nav3:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+        top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_jiaruwomen_1.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav2:before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 35px;
+    top: 40px;
+    left:156px;
+    background-image: url(../img/aboutus/icon_qiyewenhua_1.png);
+    background-repeat: no-repeat;
+
+    z-index: 1;
+}
+.active .nav1:before {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 156px;
+    background-image: url(../img/aboutus/icon_1tuandui.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 35px;
+    z-index: 1;
+}
+section#joinpart1{
+  background: #f3f4f6;
+  padding-top: 80px;
+}
+#joinpart1 .tabtitle{
+  width:100%;
+  background: #fff;
+  padding:0 20px;
+  height:68px;
+  margin-top: 30px;
+  font-size:26px;
+  line-height:68px;
+  border-left:2px solid #979899;
+}
+#joinpart1 .tabtitle.active {
+  border-left:2px solid #409fff;
+}
+.wrap{
+    width: 100%;
+}
+#joinpart1 .btns {
+    color: #fff;
+    border: none;
+    width: 130px;
+    font-size: 14px;
+    float: right;
+    line-height: 34px;
+    margin-top: 22px;
+    height: 34px;
+    border-radius: 3px;
+    position: relative;
+}
+#joinpart1 .btns a{
+  padding-left: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+#joinpart1 .btns:before{
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 20px;
+    background-image: url(../img/icon_shenqing.png);
+    background-repeat: no-repeat;
+    height: 19px;
+    width: 22px;
+    z-index: 1;
+}
+.sy-btn {
+    background: #ffffff;
+    background: -moz-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #3eb9ff), color-stop(100%, #2772ff));
+    background: -webkit-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -o-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: -ms-linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    background: linear-gradient(90deg, #3eb9ff 0%, #2772ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3eb9ff, endColorstr=#2772ff, GradientType=1);
+
+}
+.accordion .tabtitle{
+    background: #ccc;
+    color: #000;
+    padding: 0 10px;
+    line-height: 26px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+/* .accordion .tabtitle .active{
+    background: blue;
+    color: #fff;
+} */
+/* .accordion .tabtitle  em{
+    margin-right: 10px;
+} */
+/* .accordion>div,  */
+.accordion>dl{
+ border-left: 2px solid #419fff;;
+    display: none;
+}
+.accordion>dl{
+    list-style: none;
+    background: #fff;
+    padding: 20px 20px 20px 10px;
+}
+.accordion>dl dd,.accordion>dl dt{
+    padding: 0 10px;
+    line-height: 26px;
+}
+

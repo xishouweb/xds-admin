@@ -1,0 +1,324 @@
+@import '~@/assets/stylus/mixin'
+#survey
+  height 100%
+  position relative
+  .page-link
+    cursor: pointer;
+  .data-loading
+    background: #fff
+  >.data-loading
+    position absolute
+    left 0
+    top 0
+  .scroll-common
+    padding 0 10px 59px
+  .tip-wrapper
+    position relative
+    margin-bottom 20px
+    height 70px
+    background-color #fff
+    border-radius 3px
+    clear()
+    .close
+      position absolute
+      color #c0c6cc
+      right 29px
+      top 25px
+      cursor pointer
+      &:hover
+        color #409eff
+    .tip-item
+      margin-top 20px
+      float left
+      padding-right 4%
+      position relative
+      margin-left 3.7%
+      &:nth-of-type(1)
+        margin-left 4%
+      .numImg
+        float left
+      .tip-text
+        margin-left 20px
+        float left
+        .link
+          cursor pointer
+          font-size 12px
+          color #409eff
+        .text
+          margin-bottom 7px
+      .tip-icon
+        position absolute
+        font-size 18px
+        color #cacbcc
+        right 0
+        top 6px
+  .survey-wrapper
+    position relative
+    .survey-main
+      padding-top 1px
+      margin-right 330px
+      .survey-item
+        height 180px
+        .ivu-row
+          height 100%
+          .part-1
+            height 100%
+            border-radius 3px
+            .ivu-row
+              background-color #fff
+            .ivu-col
+              text-align center
+              .statistics
+                margin-top 46px
+                text-align left
+                display inline-block
+                clear()
+                .statistics-left
+                  float left
+                  margin-top 16px
+                .statistics-right
+                  margin-left 20px
+                  float left
+                  div
+                    margin-bottom 10px
+                    &:nth-of-type(3)
+                      margin-bottom 0
+                  .num
+                    font-size 36px
+                    color #409eff
+                  .tipsNum
+                    font-size 12px
+                    color #909499
+          .part-2
+            .count
+              background-color #fff
+              text-align center
+              height 180px
+              .title
+                padding 55px 0 31px
+                font-weight 700px
+              .num
+                font-size 36px
+    .survey-part
+      min-height 238px
+      background-color #ffffff
+      border-radius 3px
+      margin 20px 0
+      .part-title
+        clear()
+        padding 20px 20px 0
+        .title-left
+          float left
+          font-size 18px
+          color #0c0c0d
+          font-weight 600
+        .title-right
+          float right
+          .today
+            cursor pointer
+            color #909499
+            display inline-block
+          .yestoday
+            cursor pointer
+            margin-left 20px
+            color #909499
+            display inline-block
+          .active
+            color #409eff
+      .part-content
+        clear()
+        margin-top 62px
+        .part-float
+          float left
+          width 20%
+          text-align center
+          .part-center
+            display inline-block
+            .part-tit
+              color #303133
+            .part-num
+              margin-top 24px
+              color #0c0c0d
+              font-size 36px
+      .part-service
+        margin-top 42px
+        .part-float
+          .part-center
+            .part-num
+              margin-top 20px
+              font-size 14px
+              color #303133
+    .left
+      position absolute
+      right 0
+      top 0
+      width 310px
+      .left-wrapper
+        height 150px
+        padding 20px
+        margin-bottom 20px
+        border-radius 3px
+        background-color #fff
+        .tit
+          clear()
+          color #0c0c0d
+          .tit-left
+            position relative
+            float left
+            padding-left 12px
+            font-weight: 600
+            &:after
+              position absolute
+              left 0
+              content ''
+              width 2px
+              height 14px
+              background-color #409eff
+          .tit-right
+            float right
+            cursor pointer
+            &:hover
+              color #409eff
+        .con
+          .con-item
+            margin-top 21px
+            font-size 12px
+            cursor pointer
+            &:hover
+              color #409eff
+            clear()
+            .item-left
+              float left
+              width 200px
+              no-wrap()
+            .item-right
+              float right
+              width 64px
+          .concent
+            clear()
+            .code
+              float left
+              margin-top 20px
+              img
+                width 76px
+                height 76px
+            .end
+              float left
+              margin-left 11px
+              margin-top 29px
+              div
+                font-size 12px
+                margin-bottom 10px
+      .info
+        height 238px
+        .name
+          font-size 18px
+          color #0c0c0d
+          no-wrap()
+        .date
+          clear()
+          div
+            float left
+            padding 6px 12px
+            background-color #fff1f1
+            color #f56c6c
+            border-radius 12px
+            margin-top 20px
+            &:nth-of-type(1)
+              max-width 122px
+              no-wrap()
+              margin-right: 10px
+        .statistics
+          display: flex
+          justify-content: space-between
+          text-align: center
+          margin-top: 30px
+          margin-left: 20px
+          margin-right: 20px
+          .stati-name
+            font-size: 12px
+            color #606366
+          .stati-info
+            font-size: 16px
+            margin-top: 10px
+            color: #979899
+            .use
+              color: #409eff
+        .tips-info
+          font-size 12px
+          color #606366
+          margin-top 20px
+          no-wrap()
+        .butn
+          background-color #f56c6c
+          border-radius 3px
+          cursor pointer
+          color #ffffff
+          text-align center
+          padding 8px 0
+          margin-top 11px
+  .card2
+    margin: 20px 0;
+  .card1, .card2
+    .survey-part
+      min-height: 208px !important
+      background-color: #fff;
+      border-radius: 3px;
+      margin 0px !important
+    .part-card-content
+      margin-top 50px
+    .text-center
+      text-align center
+    .part-tit{
+      height: 14px;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #606366;
+    }
+    .part-num {
+      margin-top 15px
+      height: 21px;
+      font-family: MicrosoftYaHei;
+      font-size: 24px;
+      font-weight: 700;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #0c0c0d;
+    }
+    .survey-part-sub-text {
+      margin 40px 0 0 18px
+      height: 12px;
+      font-family: MicrosoftYaHei;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #979899;
+    }
+
+  .echart-statisWrap
+    .echart-statisDate
+      padding 10px 20px
+    .echart-statisList
+      padding 10px 20px
+    .echart-statisTChart
+      height 240px
+
+@media screen and (max-width: 1380px)
+  #survey .tip-wrapper .tip-item
+      margin-left: 0
+      transition: all 0.5s
+      .tip-icon
+        right 5px
+        transition: all 0.5s
+
+
+
+
+

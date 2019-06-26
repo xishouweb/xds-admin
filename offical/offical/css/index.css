@@ -1,0 +1,56 @@
+.tap-container{
+  height: 100% !important;
+  position: relative;
+}
+.tap-container li{
+  overflow: hidden;
+}
+.tp-banner-container .tp-bullets{
+  bottom: 200px !important;
+}
+.tp-banner-container .tp-bullets .bullet{
+  cursor: pointer;
+  position: relative;
+  /* background: url(../assets/bullet.png) no-Repeat top left; */
+}
+
+.dis-absolute {
+  position: relative;
+}
+.dis-absolute * {
+  position: absolute;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.jihuo{
+  padding: 0 6px;
+  font-size: 28px;
+  font-weight: 400;
+  background: #177ee5;
+  color: #fff;
+  top: 120px;
+  left: 0;
+}
+.wajue{
+  padding: 0 6px;
+  font-size: 28px;
+  font-weight: 400;
+  background: #177ee5;
+  color: #fff;
+  top: 120px;
+  left: 145px;
+}
+.tisheng{
+  font-size: 27px;
+  color:#177ee5;
+  top: 120px;
+  left: 0;
+  top: 230px;
+}
+.ten{
+  width: 145px;
+  height: 60px;
+  top: 202px;
+  left: 150px;
+}
+

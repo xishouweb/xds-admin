@@ -1,0 +1,186 @@
+@import 'variable.styl'
+@import 'mixin.styl'
+body, html
+  line-height 1
+  font-family 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  font-size 14px
+  height 100%
+  width 100%
+  -webkit-tap-highlight-color transparent
+  background $color-background
+  color $color-text
+// .ivu-input
+// height: 40px
+// line-height: 40px
+// font-size: 14px
+.ivu-btn-primary[disabled]
+  color #fff
+.ivu-btn-primary[disabled]:hover
+  color #fff
+.spin-icon-load
+  animation ani-spin 1s linear infinite
+@keyframes ani-spin
+  from
+    transform rotate(0deg)
+  50%
+    transform rotate(180deg)
+  to
+    transform rotate(360deg)
+.ivu-select-dropdown
+  box-shadow 0px 2px 6px 0px rgba(0, 0, 0, 0.35)
+  display: inline-block
+  width: auto
+  .userDrop
+    max-width 221px
+    margin 0
+    padding-bottom 10px
+    .ivu-dropdown-item
+      no-wrap()
+      padding 7px 35px 7px 16px
+      color #6f6f6f
+      transition background-image 0.2s ease-in-out
+      &:hover
+        color #fff
+        background-color rgb(74, 171, 253)
+        background-image linear-gradient(90deg, #5fc5fa 0%, #409eff 100%), linear-gradient(#000000, #000000)
+        background-blend-mode normal, normal
+      .ivu-icon
+        vertical-align none
+        margin-right 10px
+.noWrap
+  clear()
+  no-wrap()
+  .inbl
+    float left
+    width 115px
+    line-height 30px
+    no-wrap()
+  img
+    width 30px !important
+    height 30px !important
+  div
+    margin-left 6px !important
+.ivu-btn
+  padding 8.5px 15px
+.ivu-btn-small
+  padding 4.5px 7px
+.ivu-table-wrapper
+  border none
+  .ivu-table
+    .ivu-table-header
+      .ivu-table-cell
+        span
+          color #606366
+          font-weight 700
+.ivu-table:before
+  height 0
+.ivu-table:after
+  width 0
+.ivu-input
+  font-size 15px
+  padding-right: 25px
+.ivu-form-item-error .ivu-input-group-with-prepend .ivu-input
+  box-shadow none
+  border-left-color #d7dde4
+  &:hover, :focus, :active
+    border-left-color #d7dde4
+    box-shadow none
+.isHideAction
+  display none
+
+.ivu-checkbox-checked .ivu-checkbox-inner::after
+  content ''
+  display block
+  width 4px
+  height 8px
+  position absolute
+  top 1px
+  left 4px
+  border 2px solid #fff
+  border-top 0
+  border-left 0
+  transform rotate(45deg) scale(1)
+  -webkit-transform rotate(45deg) scale(1)
+  transition all 0.2s ease-in-out
+  z-index 100
+.ivu-tabs .ivu-tabs-tabpane
+  position relative
+.ivu-table-cell
+  line-height: 16px
+.ivu-message
+  .ivu-message-notice
+    .ivu-message-notice-content
+      // height 40px
+      box-shadow 0px 3px 8px 0px rgba(3, 51, 2, 0.2)
+      padding 0
+      border-radius 3px
+      .ivu-message-notice-content-text
+        &:nth-of-type(2)
+          display: none
+        // width: 100%
+        .ivu-message-custom-content
+          padding: 12px 29px
+          border-radius 3px
+          color: #ffffff
+          .ivu-icon
+            color: #ffffff
+            font-size: 16px
+            margin-right: 3px
+          &.ivu-message-success
+            background-color: #09bb07
+          &.ivu-message-error
+            background-color: rgb(246, 108, 108)
+          &.ivu-message-info
+            background-color: #409eff
+          &.ivu-message-warning
+            background-color: #409eff
+.wechat-title
+  font-size: 18px
+  color: #0c0c0d
+  border-bottom: solid 1px #e3e5e6
+  padding 32px 0 19px
+  font-weight: bold
+// 分页共有样式
+.commom-page
+  float: right
+  .ivu-select-single .ivu-select-selection
+    height 32px
+    position: relative
+    .ivu-select-selected-value
+      height 30px
+      line-height 30px
+  .ivu-page-options-elevator input
+    height 32px
+
+// fix-box样式
+.actionWrap
+  position relative
+  background #ffffff
+  width 90px
+  font-size 14px
+  color #303133
+  li
+    position relative
+    padding 0 10px
+    line-height 30px
+    text-align center
+    cursor pointer
+    &:hover
+      background-color #409eff
+      color #fff
+    &:first-of-type
+      &:before
+        position absolute
+        left -6px
+        top 11px
+        display inline-block
+        content ''
+        width 0
+        height 0
+        border-style solid
+        border-width 5px 6px 5px 0
+        border-color transparent #fff transparent transparent
+      &:hover
+        &:before
+          border-color transparent #409eff transparent transparent
+
